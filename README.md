@@ -12,21 +12,21 @@ Data Inputs required for New Analysis file are as follows
 
 INPUT
 1.	model (the following fields are required - others can be supplied)
-  i. S-->Stoichiometric matrix
-  ii. b-->Right hand side = dx/dt
-  iii. c-->Objective coefficients
-  iv. lb-->Lower bounds
-  v. ub-->Upper bounds
+    1) S-->Stoichiometric matrix
+    2) b-->Right hand side = dx/dt
+    3) c-->Objective coefficients
+    4) lb-->Lower bounds
+    5) ub-->Upper bounds
 
 2.	MFA_Flux->Structure file containing data of Wild type Inner central Metabolism Reactions
-  i.	rxns-->Name of the Rxns
-  ii.	val-->Flux values
-  iii.	err-->Error in flux values
+    1) rxns-->Name of the Rxns
+    2) val-->Flux values
+    3) err-->Error in flux values
   
 3.	External_Flux->Structure file containing data of Wild type External Rxns 
-  i) rxns-->Name of the Rxns 
-  ii) val-->Flux values 
-  iii) err-->Error in flux values
+    1) rxns-->Name of the Rxns 
+    2) val-->Flux values 
+    3) err-->Error in flux values
   
 4.	ReqRxnList->List of desired Reactions to be analysed
 
